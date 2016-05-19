@@ -1,0 +1,23 @@
+Origin: Blankon
+Label: Blankon
+Codename: nusantara
+Suite: nusantara
+Components: main restricted extras extras-restricted
+UDebComponents: main
+Architectures: i386 amd64 source
+Version: 1.0
+Description: Blankon 10.1 Nusantara
+# XXXXXXXXXX
+# Jangan kasih "-" di kolom Update, nanti paket2 khas2 edusantara akan dihapus
+Update: merge.sid
+SignWith: A984BDA6
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+Contents: udebs nodebs . .gz
+ContentsArchitectures: i386 amd64
+ContentsComponents: main restricted extras extras-restricted
+ContentsUComponents: main
+Log: nusantara.log
+ --type=dsc changelogs
+

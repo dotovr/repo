@@ -1,0 +1,6 @@
+basedir /home/arsip/reprepro
+confdir /home/arsip/reprepro/conf
+dbdir /home/arsip/reprepro/db
+outdir /home/arsip/repo/nusantara/
+gnupghome /home/arsip/.gnupg
+#ignore brokensignat
